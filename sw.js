@@ -2,12 +2,12 @@ self.addEventListener('install', event => {
     event.waitUntil(
       caches.open('v1').then(cache => {
         return cache.addAll([
-          '/',
-          '/index.html',
-          '/styles/styles.css',
-          '/scripts/script.js',
-          '/favicons/favicon-192x192.png',
-          '/favicons/favicon-512x512.png'
+            '/Katsura/',  // Update this path
+            '/Katsura/index.html',  // Update this path
+            '/Katsura/styles/styles.css',  // Update this path
+            '/Katsura/scripts/script.js',  // Update this path
+            '/Katsura/favicons/favicon-192x192.png',  // Update this path
+            '/Katsura/favicons/favicon-512x512.png'  // Update this path
         ]);
       })
     );
