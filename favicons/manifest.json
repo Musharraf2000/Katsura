@@ -1,7 +1,7 @@
 {
  "name": "Katsura Fan page",
  "short_name": "KatsuraWeb",
- "start_url": "/index.html",
+ "start_url": "/Katsura/index.html",
  "display": "standalone",
  "background_color": "#ffffff",
  "theme_color": "#000000",
